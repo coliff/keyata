@@ -1,6 +1,6 @@
 {
   "name": "Keyata Media Keys",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -69,7 +69,7 @@
       "js": ["plugin-api.js","keysocket-eighttracks.js"]
     },
     {
-      "matches": ["https://music.amazon.com/*", "https://music.amazon.de/*", "https://music.amazon.co.jp/*", "https://music.amazon.in/*"],
+      "matches": ["https://music.amazon.com/*", "https://music.amazon.co.uk/*","https://music.amazon.de/*", "https://music.amazon.fr/*","https://music.amazon.co.jp/*", "https://music.amazon.in/*"],
       "js": ["plugin-api.js", "keysocket-amazon-cloud-player.js"]
     },
     {
@@ -109,10 +109,6 @@
       "js": ["plugin-api.js", "keysocket-googlemusic.js"]
     },
     {
-      "matches": ["*://music.microsoft.com/*"],
-      "js": ["plugin-api.js", "keysocket-groovemusic.js"]
-    },
-    {
       "matches": ["*://hearthis.at/*"],
       "js": ["plugin-api.js", "keysocket-hearthis.js"]
     },
@@ -149,7 +145,7 @@
       "js": ["plugin-api.js", "keysocket-myspace.js"]
     },
     {
-      "matches": ["*://*.myzuka.me/*"],
+      "matches": ["*://*.myzuka.me/*", "*://*.myzcloud.org/*"],
       "js": ["plugin-api.js", "keysocket-myzukafm.js"]
     },
     {
@@ -197,10 +193,6 @@
       "js": ["plugin-api.js", "keysocket-pocketcasts.js"]
     },
     {
-      "matches": ["*://pleer.net/*"],
-      "js": ["plugin-api.js", "keysocket-prostopleer.js"]
-    },
-    {
       "matches": ["*://*.qobuz.com/*"],
       "js": ["plugin-api.js","keysocket-qobuz.js"]
     },
@@ -225,7 +217,7 @@
       "js": ["plugin-api.js", "keysocket-soundcloud.js"]
     },
     {
-      "matches": ["https://sowndhaus.com/*"],
+      "matches": ["https://sowndhaus.com/*", "https://sowndhaus.audio/*"],
       "js": ["plugin-api.js", "keysocket-sowndhaus.js"]
     },
     {
