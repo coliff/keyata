@@ -1,0 +1,13 @@
+{
+  "editor.renderWhitespace": "all",
+  "cSpell.words": [
+    "anonymize",
+    "digitallyimported",
+    "keyata",
+    "keysocket",
+    "metopera",
+    "ssplayer"
+  ],
+  "cSpell.ignorePaths": ["*.min.js"],
+  "editor.formatOnSave": true
+}
