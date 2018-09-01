@@ -5,13 +5,31 @@
 [![github-stars-image](https://img.shields.io/github/stars/keyata/keyata.svg?label=github%20stars)](https://github.com/keyata/keyata)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-Global keyboard bindings to control your Chrome-based music player.
+⏯️ Chrome extensions for keyboard bindings to control music and video playback.
 Allows your keyboard media keys (play/pause, next, previous) to work
-when you're listening to music on various streaming websites.
+when you're enjoying music or video on various streaming websites.
 
 [![Download on Chrome Web Store](https://developer.chrome.com/webstore/images/ChromeWebStore_BadgeWBorder_v2_206x58.png)](https://chrome.google.com/webstore/detail/keyata-media-keys/plpeenhmioohpjnkneohjhedljjjdokb)
 
-# Supported Sites
+## Supported Video Sites 📺
+
+- [Apple Developer Videos](https://developer.apple.com/videos/)
+- [Crunchyroll](http://www.crunchyroll.com)
+- [Hulu Japan](https://www.happyon.jp/)
+- [LinkedIn Learning](https://www.linkedin.com/learning/)
+- [Netflix](https://netflix.com)
+- [NHK Japan](https://www3.nhk.or.jp/)
+- [Plex](https://www.plex.tv)
+- [Supersport.com](https://www.supersport.com)
+- [tver.jp](https://tver.jp)
+- [Twitch.tv](https://www.twitch.tv)
+- [Ustream.tv](https://ustream.tv)
+- [Vimeo](http://vimeo.com)
+- [XFINITY](https://www.xfinity.com)
+- [YouTube](https://youtube.com)
+- [YouTube Music](https://music.youtube.com)
+
+## Supported Music Sites 🎵
 
 - [163 Music](https://music.163.com/)
 - [8tracks](https://8tracks.com/)
@@ -21,22 +39,19 @@ when you're listening to music on various streaming websites.
 - [Amazon Music JP](https://music.amazon.co.jp/home)
 - [Amazon Music UK](https://music.amazon.co.uk/home)
 - [Amazon Music US](https://music.amazon.com/home)
-- [Apple Developer Videos](https://developer.apple.com/videos/)
 - [Bandcamp](https://bandcamp.com)
 - [Birp](http://www.birp.fm/)
 - [Bugs Music](https://music.bugs.co.kr/)
-- [Crunchyroll](https://crunchyroll.com)
 - [Deezer](https://www.deezer.com)
 - [Digitally Imported](https://di.fm)
 - [Gaana.com](https://gaana.com)
 - [Google Play Music](https://play.google.com/music/)
 - [HearThis.at](https://hearthis.at/)
-- [Hulu Japan](https://www.happyon.jp/)
 - [Hype Machine](https://hypem.com)
 - [iloveradio.de](http://iloveradio.de)
 - [Jamstash](http://jamstash.com)
 - [Jango.com](http://www.jango.com)
-- [LinkedIn Learning](https://www.linkedin.com/learning/)
+- [Madsonic](http://madsonic.org)
 - [Mixcloud](https://www.mixcloud.com)
 - [Zing MP3](http://mp3.zing.vn)
 - [Met Opera Season On-Demand](https://www.metopera.org/)
@@ -45,8 +60,6 @@ when you're listening to music on various streaming websites.
 - [Myzcloud.org](http://myzcloud.org)
 - [Napster](https://napster.com)
 - [Naxos Music Library](https://www.naxosmusiclibrary.com)
-- [Netflix](https://netflix.com)
-- [NHK Japan](https://www3.nhk.or.jp/)
 - [Noon Pacific](https://noonpacific.com)
 - [NRK Radio](https://radio.nrk.no)
 - [Ok.ru](https://ok.ru)
@@ -54,7 +67,6 @@ when you're listening to music on various streaming websites.
 - [Pandora](https://www.pandora.com)
 - [Phish Tracks](http://phishtracks.com)
 - [Picarto.tv](https://picarto.tv)
-- [Plex](https://www.plex.tv)(untested)
 - [Pluralsight](https://pluralsight.com)
 - [Pocketcasts.com](https://play.pocketcasts.com)
 - [Qobuz](https://www.qobuz.com)
@@ -69,21 +81,13 @@ when you're listening to music on various streaming websites.
 - [Spotify](https://www.spotify.com)
 - [Spreaker](https://www.spreaker.com)
 - [Streamsquid](http://streamsquid.com)
-- [Subsonic](https://www.subsonic.com) (and [Madsonic](http://madsonic.org))
+- [Subsonic](https://www.subsonic.com)
 - [Superplayer.fm](https://www.superplayer.fm)
-- [Supersport.com](https://www.supersport.com)
 - [Synology Audio Station v.5](https://www.synology.com)
 - [Tidal](http://tidal.com)
 - [tunein.com](https://tunein.com)
-- [tver.jp](https://tver.jp)
-- [Twitch.tv](https://www.twitch.tv)
-- [Ustream.tv](https://ustream.tv)
 - [vk.com](http://vk.com)(Vkontakte)
-- [Vimeo](http://vimeo.com)
-- [XFINITY](https://www.xfinity.com)
 - [Xiami Music](https://www.xiami.com/)
-- [YouTube](https://youtube.com)
-- [YouTube Music](https://music.youtube.com)
 - [Zvooq](https://zvooq.com)
 - [Яндекс.Музыка](https://music.yandex.ru/)(Yandex.Music)
 - [Яндекс.Радио](https://radio.yandex.ru/)(Yandex.Radio)
