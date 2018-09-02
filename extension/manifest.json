@@ -1,6 +1,6 @@
 {
   "name": "Keyata Media Keys",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -78,7 +78,14 @@
         "https://music.amazon.co.jp/*",
         "https://music.amazon.in/*"
       ],
-      "js": ["plugin-api.js", "keysocket-amazon-cloud-player.js"]
+      "js": ["plugin-api.js", "keysocket-amazon-music.js"]
+    },
+    {
+      "matches": [
+        "https://www.amazon.co.uk/gp/video/*",
+        "https://www.amazon.com/gp/video/*"
+      ],
+      "js": ["plugin-api.js", "keysocket-amazon-video.js"]
     },
     {
       "matches": ["https://developer.apple.com/videos*"],
