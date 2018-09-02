@@ -5,7 +5,7 @@
 [![github-stars-image](https://img.shields.io/github/stars/keyata/keyata.svg?label=github%20stars)](https://github.com/keyata/keyata)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
-⏯️ Chrome extensions for keyboard bindings to control music and video playback.
+⏯️ Chrome extension for keyboard bindings to control music and video playback.
 Allows your keyboard media keys (play/pause, next, previous) to work
 when you're enjoying music or video on various streaming websites.
 
@@ -33,6 +33,7 @@ when you're enjoying music or video on various streaming websites.
 
 - [163 Music](https://music.163.com/)
 - [8tracks](https://8tracks.com/)
+- [Amazon Music AU](https://music.amazon.com.au/home)
 - [Amazon Music DE](https://music.amazon.de/home)
 - [Amazon Music FR](https://music.amazon.fr/home)
 - [Amazon Music IN](https://music.amazon.in/home)
