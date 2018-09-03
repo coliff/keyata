@@ -18,7 +18,7 @@ when you're enjoying music or video on various streaming websites.
 - [Hulu Japan](https://www.happyon.jp/)
 - [LinkedIn Learning](https://www.linkedin.com/learning/)
 - [Netflix](https://netflix.com)
-- [NHK Japan](https://www3.nhk.or.jp/)
+- [NHK Japan](https://www.nhk.or.jp/)
 - [Plex](https://www.plex.tv)
 - [Supersport.com](https://www.supersport.com)
 - [tver.jp](https://tver.jp)

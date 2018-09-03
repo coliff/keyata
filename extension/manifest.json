@@ -62,7 +62,7 @@
     },
     {
       "matches": ["*://mp3.zing.vn/*"],
-      "js": ["plugin-api.js", "keysocket-zingmp3.js"]
+      "js": ["plugin-api.js", "keysocket-zing-mp3.js"]
     },
     {
       "matches": ["*://8tracks.com/*"],
@@ -165,7 +165,7 @@
     },
     {
       "matches": ["*://*.myzuka.me/*", "*://*.myzcloud.org/*"],
-      "js": ["plugin-api.js", "keysocket-myzukafm.js"]
+      "js": ["plugin-api.js", "keysocket-myzcloud.js"]
     },
     {
       "matches": ["*://*.naxosmusiclibrary.com/mediaplayer/*"],
