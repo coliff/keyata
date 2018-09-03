@@ -1,6 +1,6 @@
 {
   "name": "Keyata Media Keys",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -70,25 +70,25 @@
     },
     {
       "matches": [
-        "https://music.amazon.com/*",
-        "https://music.amazon.com.au/*",
-        "https://music.amazon.co.uk/*",
-        "https://music.amazon.de/*",
-        "https://music.amazon.fr/*",
-        "https://music.amazon.co.jp/*",
-        "https://music.amazon.in/*"
+        "*://music.amazon.com/*",
+        "*://music.amazon.com.au/*",
+        "*://music.amazon.co.uk/*",
+        "*://music.amazon.de/*",
+        "*://music.amazon.fr/*",
+        "*://music.amazon.co.jp/*",
+        "*://music.amazon.in/*"
       ],
       "js": ["plugin-api.js", "keysocket-amazon-music.js"]
     },
     {
       "matches": [
-        "https://www.amazon.co.uk/gp/video/*",
-        "https://www.amazon.com/gp/video/*"
+        "*://www.amazon.co.uk/gp/video/*",
+        "*://www.amazon.com/gp/video/*"
       ],
       "js": ["plugin-api.js", "keysocket-amazon-video.js"]
     },
     {
-      "matches": ["https://developer.apple.com/videos*"],
+      "matches": ["*://developer.apple.com/videos*"],
       "js": ["plugin-api.js", "keysocket-apple-developer.js"]
     },
     {
@@ -120,8 +120,8 @@
       "js": ["plugin-api.js", "keysocket-gaana.js"]
     },
     {
-      "matches": ["https://play.google.com/music/*"],
-      "js": ["plugin-api.js", "keysocket-googlemusic.js"]
+      "matches": ["*://play.google.com/music/*"],
+      "js": ["plugin-api.js", "keysocket-google-music.js"]
     },
     {
       "matches": ["*://www.happyon.jp/*"],
@@ -172,11 +172,11 @@
       "js": ["plugin-api.js", "keysocket-nml.js"]
     },
     {
-      "matches": ["https://www.netflix.com/*"],
+      "matches": ["*://www.netflix.com/*"],
       "js": ["plugin-api.js", "keysocket-netflix.js"]
     },
     {
-      "matches": ["https://www.nhk.or.jp/*"],
+      "matches": ["*://*.nhk.or.jp/*"],
       "js": ["plugin-api.js", "keysocket-nhk.js"]
     },
     {
@@ -192,7 +192,7 @@
       "js": ["plugin-api.js", "keysocket-ok.js"]
     },
     {
-      "matches": ["https://overcast.fm/*"],
+      "matches": ["*://overcast.fm/*"],
       "js": ["plugin-api.js", "keysocket-overcast.js"]
     },
     {
@@ -239,11 +239,11 @@
       "js": ["plugin-api.js", "keysocket-somafm.js"]
     },
     {
-      "matches": ["https://soundcloud.com/*"],
+      "matches": ["*://soundcloud.com/*"],
       "js": ["plugin-api.js", "keysocket-soundcloud.js"]
     },
     {
-      "matches": ["https://sowndhaus.com/*", "https://sowndhaus.audio/*"],
+      "matches": ["*://sowndhaus.com/*", "*://sowndhaus.audio/*"],
       "js": ["plugin-api.js", "keysocket-sowndhaus.js"]
     },
     {
