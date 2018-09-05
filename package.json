@@ -1,0 +1,14 @@
+{
+  "name": "keyata-build-script",
+  "description": "optimise-all-images-in-folder-and-make-a-zip",
+  "version": "2018.09.01",
+  "private": true,
+  "author": "C.Oliff",
+  "devDependencies": {
+    "grunt": "~1.0.3",
+    "load-grunt-tasks": "^4.0.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-imagemin": "^2.0.1"
+  },
+  "license": "N/A"
+}
