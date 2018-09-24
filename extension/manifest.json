@@ -65,6 +65,10 @@
       "js": ["plugin-api.js", "keysocket-zing-mp3.js"]
     },
     {
+      "matches": ["*://beta.mp3.zing.vn/*"],
+      "js": ["plugin-api.js", "keysocket-zing-mp3-beta.js"]
+    },
+    {
       "matches": ["*://8tracks.com/*"],
       "js": ["plugin-api.js", "keysocket-eighttracks.js"]
     },
