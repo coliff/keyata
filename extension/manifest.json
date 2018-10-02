@@ -1,6 +1,6 @@
 {
   "name": "Keyata Media Keys",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -104,7 +104,7 @@
       "js": ["plugin-api.js", "keysocket-birp.js"]
     },
     {
-      "matches": ["http://music.bugs.co.kr/newPlayer*"],
+      "matches": ["*://music.bugs.co.kr/newPlayer*"],
       "js": ["plugin-api.js", "keysocket-bugs.js"]
     },
     {
