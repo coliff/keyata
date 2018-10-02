@@ -1,3 +1,7 @@
+## 1.0.5 - 02/10/2018
+
+- Add support for Zing MP3 Beta
+
 ## 1.0.4 - 03/09/2018
 
 - Improve NHK JP coverage
