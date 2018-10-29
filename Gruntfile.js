@@ -25,7 +25,7 @@ module.exports = function(grunt) {
     compress: {
       main: {
         options: {
-          archive: "extension.zip"
+          archive: "keyata-extension.zip"
         },
         files: [
           {
