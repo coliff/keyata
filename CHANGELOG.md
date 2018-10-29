@@ -1,3 +1,7 @@
+## 1.0.6 - 29/10/2018
+
+- Improve LinkedIn Learning video pause/play
+
 ## 1.0.5 - 02/10/2018
 
 - Add support for Zing MP3 Beta
