@@ -4,11 +4,12 @@
   "version": "2018.09.01",
   "private": true,
   "author": "C.Oliff",
+  "homepage": "https://github.com/keyata/keyata",
   "devDependencies": {
     "grunt": "~1.0.3",
     "load-grunt-tasks": "^4.0.0",
     "grunt-contrib-compress": "^1.4.3",
-    "grunt-contrib-imagemin": "^3.0.0"
+    "grunt-contrib-imagemin": "^3.1.0"
   },
   "license": "N/A"
 }
