@@ -318,11 +318,13 @@
         "*://music.yandex.ua/*",
         "*://music.yandex.kz/*",
         "*://music.yandex.tr/*",
+        "*://music.yandex.com/*",
         "*://radio.yandex.ru/*",
         "*://radio.yandex.by/*",
         "*://radio.yandex.ua/*",
         "*://radio.yandex.kz/*",
-        "*://radio.yandex.tr/*"
+        "*://radio.yandex.tr/*",
+        "*://radio.yandex.com/*"
       ],
       "js": ["plugin-api.js", "keysocket-yandex-music-and-radio.js"]
     },
