@@ -1,3 +1,7 @@
+## 1.0.7 - 09/04/2019
+
+- Add support for music.yandex.com and radio.yandex.com
+
 ## 1.0.6 - 29/10/2018
 
 - Improve LinkedIn Learning video pause/play
