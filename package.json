@@ -6,10 +6,9 @@
   "author": "C.Oliff",
   "homepage": "https://github.com/keyata/keyata",
   "devDependencies": {
-    "grunt": "~1.0.4",
-    "load-grunt-tasks": "^5.0.0",
-    "grunt-contrib-compress": "^1.4.3",
-    "grunt-contrib-imagemin": "^3.1.0"
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^6.1.0",
+    "gulp-zip": "^5.0.0"
   },
   "license": "N/A"
 }
