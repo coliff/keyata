@@ -2,17 +2,12 @@ const gulp = require("gulp");
 const imagemin = require("gulp-imagemin");
 const zip = require("gulp-zip");
 
-// Task to minify images
-gulp.task("imagemin", function() {
+gulp.task("imagemin", () =>
   gulp
-    .src("extension/**/*.+(png|jpg)")
-    .pipe(
-      imagemin({
-        progressive: true
-      })
-    )
-    .pipe(gulp.dest("extension/"));
-});
+    .src("extension/icons/**")
+    .pipe(imagemin())
+    .pipe(gulp.dest("extension/icons"))
+);
 
 gulp.task("default", () =>
   gulp
