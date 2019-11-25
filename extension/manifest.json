@@ -74,21 +74,23 @@
     },
     {
       "matches": [
+        "*://music.amazon.ca/*",
         "*://music.amazon.com/*",
-        "*://music.amazon.com.au/*",
-        "*://music.amazon.co.uk/*",
+        "*://music.amazon.com.*/*",
+        "*://music.amazon.co.*/*",
         "*://music.amazon.de/*",
-        "*://music.amazon.es/*",
         "*://music.amazon.fr/*",
-        "*://music.amazon.co.jp/*",
-        "*://music.amazon.in/*"
+        "*://music.amazon.es/*",
+        "*://music.amazon.in/*",
+        "*://music.amazon.it/*"        
       ],
       "js": ["plugin-api.js", "keysocket-amazon-music.js"]
     },
     {
       "matches": [
-        "*://www.amazon.co.uk/gp/video/*",
-        "*://www.amazon.com/gp/video/*"
+        "*://www.amazon.co.*/gp/video/*",
+        "*://www.amazon.com/gp/video/*",
+        "*://www.amazon.com.*/gp/video/*"
       ],
       "js": ["plugin-api.js", "keysocket-amazon-video.js"]
     },
