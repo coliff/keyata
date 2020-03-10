@@ -1,8 +1,8 @@
 {
   "name": "keyata-build-script",
-  "version": "2019.04.04",
+  "version": "1.0.0",
   "private": true,
-  "description": "optimise-all-images-in-folder-and-make-a-zip",
+  "description": "optimise all images in folder and make a zip",
   "homepage": "https://github.com/keyata/keyata",
   "bugs": {
     "url": "https://github.com/keyata/keyata/issues"
@@ -12,13 +12,13 @@
     "url": "git+https://github.com/keyata/keyata.git"
   },
   "license": "N/A",
-  "author": "C.Oliff",
+  "author": "C.Oliff <code@christianoliff.com> (https://christianoliff.com)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^7.0.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-zip": "^5.0.1"
   }
 }
