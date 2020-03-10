@@ -76,7 +76,7 @@ when you're enjoying music or video on various streaming websites.
 - [Showmax](https://www.showmax.com)
 - [Sirius XM Radio](https://www.siriusxm.com)
 - [Slacker](https://www.slacker.com/)
-- [SomaFM](http://somafm.com/)
+- [SomaFM](https://somafm.com/)
 - [Soundcloud](https://soundcloud.com)
 - [Sowndhaus](https://sowndhaus.audio)
 - [Spotify](https://www.spotify.com)
