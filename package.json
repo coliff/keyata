@@ -11,8 +11,8 @@
     "type": "git",
     "url": "git+https://github.com/keyata/keyata.git"
   },
-  "license": "N/A",
-  "author": "C.Oliff <code@christianoliff.com> (https://christianoliff.com)",
+  "license": "Apache License 2.0",
+  "author": "C.Oliff (https://christianoliff.com)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
