@@ -1,4 +1,6 @@
-## 1.0.7 - 09/04/2019
+# CHANGELOG
+
+## 1.0.8 - 09/04/2019
 
 - Add support for Amazon Music ES
 - Add support for emumo.xiami.com
