@@ -82,7 +82,7 @@
         "*://music.amazon.fr/*",
         "*://music.amazon.es/*",
         "*://music.amazon.in/*",
-        "*://music.amazon.it/*"        
+        "*://music.amazon.it/*"
       ],
       "js": ["plugin-api.js", "keysocket-amazon-music.js"]
     },
