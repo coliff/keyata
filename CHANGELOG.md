@@ -20,13 +20,13 @@
 ## 1.0.4 - 03/09/2018
 
 - Improve NHK JP coverage
-- Minor code optimisations
+- Minor code optimizations
 
 ## 1.0.3 - 02/09/2018
 
 - Add support for Amazon Video
 - Rename Amazon Cloud Player to Amazon Music
-- Optimised icons
+- Optimized icons
 
 ## 1.0.2 - 01/09/2018
 

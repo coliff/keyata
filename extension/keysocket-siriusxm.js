@@ -1,6 +1,6 @@
 keySocket.init("siriusxm", {
-  "play-pause": ".scrub-controls .play",
-  prev: ".scrub-controls .prev",
-  next: ".scrub-controls .next"
+  "play-pause": ".play-pause-btn",
+  prev: ".skip-back-btn",
+  next: ".skip-forward-btn",
   // stop is omitted
 });
