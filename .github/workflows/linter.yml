@@ -2,6 +2,10 @@ name: Lint Code Base
 
 on:
   push:
+    branches-ignore:
+      - "dependabot/**"
+  pull_request:
+    branches: [main]
 
 jobs:
   build:
@@ -10,13 +14,12 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Lint Code Base
-        uses: docker://github/super-linter:v3
+        uses: github/super-linter/slim@v4
         env:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
-          VALIDATE_ANSIBLE: false
           VALIDATE_MARKDOWN: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
