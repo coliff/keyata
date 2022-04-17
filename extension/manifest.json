@@ -1,6 +1,6 @@
 {
   "name": "Keyata Media Keys",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -8,7 +8,7 @@
   },
   "description": "Control your favorite web-based music player with your keyboard's media keys",
   "homepage_url": "https://github.com/keyata/keyata",
-  "permissions": ["tabs", "contextMenus"],
+  "permissions": ["contextMenus"],
   "manifest_version": 2,
   "commands": {
     "prev": {
@@ -111,7 +111,14 @@
       "js": ["plugin-api.js", "keysocket-bugs.js"]
     },
     {
-      "matches": ["*://*/*.mp3", "*://*/*.mp3?*", "file:///*.mp3", "*://*/*.m4a", "*://*/*.m4a?*", "file:///*.m4a"],
+      "matches": [
+        "*://*/*.mp3",
+        "*://*/*.mp3?*",
+        "file:///*.mp3",
+        "*://*/*.m4a",
+        "*://*/*.m4a?*",
+        "file:///*.m4a"
+      ],
       "js": ["plugin-api.js", "keysocket-builtin-player.js"]
     },
     {
@@ -311,7 +318,10 @@
       "js": ["plugin-api.js", "keysocket-xfinity.js"]
     },
     {
-      "matches": ["http://www.xiami.com/play*","https://emumo.xiami.com/play*"],
+      "matches": [
+        "http://www.xiami.com/play*",
+        "https://emumo.xiami.com/play*"
+      ],
       "js": ["plugin-api.js", "keysocket-xiami.js"]
     },
     {
