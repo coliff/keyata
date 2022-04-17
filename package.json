@@ -14,11 +14,12 @@
   "license": "Apache License 2.0",
   "author": "C.Oliff (https://christianoliff.com)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp",
+    "test": "eslint extension/*.js"
   },
   "devDependencies": {
+    "eslint": "^8.13.0",
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^8.0.0",
     "gulp-zip": "^5.1.0"
   }
 }

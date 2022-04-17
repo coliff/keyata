@@ -1,9 +1,8 @@
-name: 'Check spelling'
+name: Check spelling
 on:
   pull_request:
     branches-ignore:
-      - "dependabot/**"
-      
+      - dependabot/**
 jobs:
   spellcheck:
     runs-on: ubuntu-latest
