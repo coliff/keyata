@@ -127,7 +127,7 @@
     },
     {
       "matches": ["*://www.di.fm/*"],
-      "js": ["plugin-api.js", "keysocket-digitallyimported.js"]
+      "js": ["plugin-api.js", "keysocket-digitally-imported.js"]
     },
     {
       "matches": ["*://*.gaana.com/*"],
@@ -160,6 +160,10 @@
     {
       "matches": ["*://www.jango.com/*"],
       "js": ["plugin-api.js", "keysocket-jango.js"]
+    },
+    {
+      "matches": ["*://www.jiosaavn.com/*"],
+      "js": ["plugin-api.js", "keysocket-jiosaavn.js"]
     },
     {
       "matches": ["*://www.linkedin.com/learning/*"],
@@ -348,6 +352,11 @@
     {
       "matches": ["*://*.youtube.com/*"],
       "js": ["plugin-api.js", "keysocket-youtube.js"]
+    },
+    {
+      "matches": ["*://*.youtube.com/embed/*"],
+      "js": ["plugin-api.js", "keysocket-youtube-embed.js"],
+      "all_frames": true
     },
     {
       "matches": ["*://zvooq.com/*"],
