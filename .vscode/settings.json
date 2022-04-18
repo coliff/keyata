@@ -1,8 +1,4 @@
 {
   "editor.renderWhitespace": "all",
-  "cSpell.ignorePaths": ["*.min.js"],
-  "editor.formatOnSave": true,
-  "yaml.schemas": {
-    "https://json.schemastore.org/github-workflow.json": "file:///c%3A/Users/coliff/Documents/GitHub/keyata/.github/workflows/cspell.yml"
-  }
+  "editor.formatOnSave": true
 }
