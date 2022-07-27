@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "private": true,
   "description": "optimise all images in folder and make a zip",
-  "homepage": "https://github.com/keyata/keyata",
+  "homepage": "https://github.com/coliff/keyata",
   "bugs": {
-    "url": "https://github.com/keyata/keyata/issues"
+    "url": "https://github.com/coliff/keyata/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/keyata/keyata.git"
+    "url": "git+https://github.com/coliff/keyata.git"
   },
   "license": "Apache License 2.0",
   "author": "C.Oliff (https://christianoliff.com)",
@@ -18,7 +18,7 @@
     "test": "eslint extension/*.js"
   },
   "devDependencies": {
-    "eslint": "^8.18.0",
+    "eslint": "^8.20.0",
     "gulp": "^4.0.2",
     "gulp-zip": "^5.1.0"
   }
