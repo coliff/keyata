@@ -5,13 +5,12 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-  schedule:
-    - cron: '31 6 * * 5'
 
 jobs:
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
+    if: ${{ github.actor != 'dependabot[bot]' }}
     permissions:
       actions: read
       contents: read
@@ -30,9 +29,6 @@ jobs:
       uses: github/codeql-action/init@v2
       with:
         languages: ${{ matrix.language }}
-
-    - name: Autobuild
-      uses: github/codeql-action/autobuild@v2
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v2
